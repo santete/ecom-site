@@ -20,26 +20,25 @@
 
 ```bash
 npm install
+```
 2. Khởi Chạy Dev Server
-bash
-Copy
-Edit
+```bash
 npm run dev
+```
 3. Truy Cập Giao Diện Website
 Mở trình duyệt và truy cập địa chỉ:
 
-arduino
-Copy
-Edit
+```arduino
 http://localhost:5173
+```
 
 ❗ Lưu Ý Quan Trọng
 KHÔNG mở trực tiếp file index.html bằng trình duyệt (dạng file://...), vì sẽ gây lỗi:
 
-pgsql
-Copy
-Edit
+```pgsql
 Access to script at 'file:///...' from origin 'null' has been blocked by CORS policy
+```
+
 ✅ Luôn sử dụng lệnh npm run dev để khởi chạy server đúng cách thông qua Vite.
 
 📁 Cấu Trúc Thư Mục Chính
